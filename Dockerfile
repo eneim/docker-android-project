@@ -31,4 +31,3 @@ RUN echo y | android update sdk --no-ui --all --filter "${ANDROID_COMPONENTS}" ;
 
 # Support Gradle
 ENV TERM dumb
-ENV JAVA_OPTS -Xms256m -Xmx512m
