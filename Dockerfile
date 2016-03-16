@@ -1,7 +1,7 @@
-# based on https://registry.hub.docker.com/u/samtstern/android-sdk/dockerfile/ with openjdk-8
+# based on https://hub.docker.com/r/gfx2015/android/ with openjdk-8
 FROM java:8
 
-MAINTAINER FUJI Goro <g.psy.va+github@gmail.com>
+MAINTAINER Nam Nguyen <nam@ene.im>
 
 ENV DEBIAN_FRONTEND noninteractive
 
