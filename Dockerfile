@@ -19,6 +19,11 @@ ENV ANDROID_HOME /usr/local/android-sdk-linux
 ENV ANDROID_SDK /usr/local/android-sdk-linux
 ENV PATH ${ANDROID_HOME}/tools:$ANDROID_HOME/platform-tools:$PATH
 
+# SDK licenses agreements
+RUN mkdir "$ANDROID_SDK/licenses" || true
+RUN echo -e "\n8933bad161af4178b1185d1a37fbf41ea5269c55" > "$ANDROID_SDK/licenses/android-sdk-license"
+RUN echo -e "\n84831b9409646a918e30573bab4c9c91346d8abd" > "$ANDROID_SDK/licenses/android-sdk-preview-license"
+
 # Install Android SDK components
 
 # License Id: android-sdk-license-ed0d0a5b
