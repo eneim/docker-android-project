@@ -1,5 +1,5 @@
 # based on https://hub.docker.com/r/gfx2015/android/ with openjdk-8
-FROM java:8
+FROM openjava:8
 
 MAINTAINER Nam Nguyen <nam@ene.im>
 
