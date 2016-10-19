@@ -27,7 +27,7 @@ RUN echo -e "\n84831b9409646a918e30573bab4c9c91346d8abd" > "$ANDROID_SDK/license
 # Install Android SDK components
 
 # License Id: android-sdk-license-ed0d0a5b
-ENV ANDROID_COMPONENTS platform-tools,build-tools-23.0.3,build-tools-24.0.0,android-23,android-24
+ENV ANDROID_COMPONENTS platform-tools,build-tools-24.0.2,android-24
 # License Id: android-sdk-license-5be876d5
 ENV GOOGLE_COMPONENTS extra-android-m2repository,extra-google-m2repository
 
