@@ -14,7 +14,7 @@ RUN dpkg --add-architecture i386 && \
 
 # Download and untar SDK
 # ENV ANDROID_SDK_URL http://dl.google.com/android/android-sdk_r24.4.1-linux.tgz
-ENV ANDROID_SDK_URL http://dl.google.com/android/android-sdk_r25.2.2-linux.tgz
+ENV ANDROID_SDK_URL http://dl.google.com/android/android-sdk_r25.1.7-linux.tgz
 RUN curl -L "${ANDROID_SDK_URL}" | tar --no-same-owner -xz -C /usr/local
 ENV ANDROID_HOME /usr/local/android-sdk-linux
 ENV ANDROID_SDK /usr/local/android-sdk-linux
